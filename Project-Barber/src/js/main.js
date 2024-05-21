@@ -9,7 +9,7 @@ eventListener()
 // Import all of Bootstrap's JS
 import * as bootstrap from "bootstrap";
 
-// Import footer
+// Import navbar
 import {navbarComponent} from "./components/navbar";
 navbarComponent()
 
