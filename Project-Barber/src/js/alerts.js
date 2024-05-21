@@ -1,4 +1,5 @@
 import Swal from "sweetalert2";
+
 const formContact = document.getElementById("form-contact");
 
 const Toast = Swal.mixin({
@@ -20,8 +21,7 @@ function succesAlert() {
   });
 }
 
-export function eventListener() {
-  formContact.addEventListener("submit", () => {
-    succesAlert()
-  });
-}
+
+formContact.addEventListener("submit", () => {
+  succesAlert()
+});
