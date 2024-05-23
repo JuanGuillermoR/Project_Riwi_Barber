@@ -57,12 +57,13 @@ export function footerComponent() {
             </p>
             <p>
               <a href="#!" class="text-reset link-underline link-underline-opacity-0">Lista de deseos</a>
-            </p>
-          </div>
-
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0">
-            <h6 class="text-uppercase fw-bold mb-4">Aviso legal y políticas de privacidad</h6>
-            <p><i class="fas fa-home"></i>Conoce nuestros términos y condiciones</p>
+              </p>
+              </div>
+              
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0">
+              <h6 class="text-uppercase fw-bold mb-4">Aviso legal y políticas de privacidad</h6>
+              <a href="/src/pages/terms_and_conditions" class="text-reset link-underline link-underline-opacity-0">Conoce nuestros términos y condiciones</a>
+            
           </div>
 
         </div>
