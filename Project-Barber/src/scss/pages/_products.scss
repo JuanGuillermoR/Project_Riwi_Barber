@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: ubuntu;
+    src: url(./Ubuntu-Regular.ttf);
+}
+
 #main-products{
     margin-top: 150px;
 }
@@ -62,4 +68,10 @@
    display: flex;
    justify-content: center;
 }
+
+p a span h1{
+    font-family: ubuntu;
+    
+}
+ 
 

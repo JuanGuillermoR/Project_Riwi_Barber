@@ -2,7 +2,7 @@ export function navbarComponent(){
     const navbar = document.querySelector("header")
 
     navbar.innerHTML +=`
-      <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
+      <nav class="navbar navbar-expand-lg bg-secondary fixed-top pe-2">
       <div class="container-fluid">
     
       <img class="ms-5" style="width: 90px" src="https://i.ibb.co/z6dbd7L/Logo-Tama-o1.png" alt="Logo de new style">

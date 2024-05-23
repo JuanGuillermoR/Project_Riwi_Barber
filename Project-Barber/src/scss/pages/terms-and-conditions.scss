@@ -1,0 +1,19 @@
+.terms-and-conditions{
+    font-size: 12px; display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 120px;
+    }
+
+.terms-and-conditions div{
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: $box-shadow-default;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: americas;
+    margin-bottom: 20px;
+}
