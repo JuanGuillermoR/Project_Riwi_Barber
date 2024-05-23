@@ -1,13 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "Jost", sans-serif;
-}
-
-.title-main{
+.title{
     margin-top: 130px;
     text-align: center;
 }
@@ -121,6 +112,19 @@
   transition: 0.7s ease;
   display: none;
 }
+
+.details .prueba{
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 33px;
+  text-align: left;
+  text-transform: uppercase;
+  transition: 0.7s ease;
+  display: none;
+}
+
 .slider-img.active{
   width: 766px !important;
   height: 750px !important;
@@ -128,11 +132,19 @@
 .slider-img.active h1{
    display: none;
 }
-.slider-img.active .details p, .slider-img.active .details h2{
+.slider-img.active .details p, .slider-img.active .details h2, .slider-img.active .details .prueba{
   display: block;
 }
 
 .tittle-additional-data{
     text-align: center;
     margin-top: 50px;
+}
+
+.date-reservation{
+  margin-left: 150px;
+}
+
+.sesion-horaria{
+  margin-left: 150px
 }
