@@ -24,6 +24,8 @@ export async function showProducts() {
                     <div class="card-body">
                         <h5 class="card-title">${product.name}</h5>
                         <p class="card-text">${product.price}</p>
+                        <a href="#">Ver detalles</a>
+                        <br>
                         <a href="#" id="btn-add" class="btn btn-primary">Agregar</a>
                     </div>
                 </div>
@@ -35,8 +37,6 @@ export async function showProducts() {
         console.error('Error fetching and parsing data', error);
     }
 }
-
-
 
 // Llama a la función para mostrar los productos
 
