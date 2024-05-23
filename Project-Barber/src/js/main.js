@@ -7,11 +7,17 @@ import * as bootstrap from "bootstrap";
 // import { eventListener } from "./alerts";
 // Import footer
 import {navbarComponent} from "./components/navbar";
+
 // Import footer
 import { footerComponent } from "./components/footer";
+
+//import products
+import { showProducts } from "./productos";
 
 
 
 navbarComponent()
 footerComponent()
-// eventListener()
+
+//productos
+showProducts()

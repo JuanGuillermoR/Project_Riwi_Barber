@@ -1,0 +1,52 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); /* Cuatro columnas de igual ancho */
+    grid-gap: 50px;
+    justify-content: center;
+
+    
+
+     /* Espacio entre las tarjetas */
+  
+
+}
+.inputs-products {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+.inputs-products .form-control,
+.inputs-products .btn {
+    margin: 5px;
+}
+.inputs-products .form-control {
+    flex: 1;
+    min-width: 150px;
+}
+.inputs-products .btn {
+    flex: 0 1 auto;
+    min-width: 120px;
+}
+
+#card-products {
+    position: relative;
+    width: 20rem;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+
+#btn-add{
+    position: absolute;
+    bottom: 20px;
+    margin-top: 20px;
+}
+
+#img-product{
+   display: flex;
+   justify-content: center;
+}
+
