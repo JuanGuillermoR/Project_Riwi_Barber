@@ -3,16 +3,16 @@
 const footer = document.querySelector("footer")
 
 export function footerComponent() {
-    footer.innerHTML = `
+  footer.innerHTML = `
     <section>
       <figure>
         <img class="ms-5" style="width: 150px" src="https://i.ibb.co/z6dbd7L/Logo-Tama-o1.png" alt="Logo de new style">
       </figure>
 
       <div class="d-flex justify-content-center gap-4 ms-5">
-          <a href="#">
-            <i class="bi bi-facebook disabled settings-icons-footer"></i>
-          </a>
+        <a href="#">
+          <i class="bi bi-facebook disabled settings-icons-footer"></i>
+        </a>
         <a href="#">
           <i class="bi bi-linkedin disabled settings-icons-footer"></i>
         </a>
@@ -20,7 +20,7 @@ export function footerComponent() {
           <i class="bi bi-youtube disabled settings-icons-footer"></i>
         </a>
         <a href="#">
-          <i class="bi bi-instagram disabled settings-icons-footer"></i>
+         <i class="bi bi-instagram disabled settings-icons-footer"></i>
         </a>
       </div>
     </section>
@@ -69,5 +69,5 @@ export function footerComponent() {
 
       </div>
     </section>
-`
+  `
 }
