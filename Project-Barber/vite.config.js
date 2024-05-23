@@ -5,8 +5,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        
-        // Agrega más páginas según sea necesario
+        'contact us': 'src/pages/contact.html',
+        'reservations': 'src/pages/reservation.html',
+        'our bookings': 'src/pages/bookings.html',
+        // Add more pages as needed
       },
     },
   },
