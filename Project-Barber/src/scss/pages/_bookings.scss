@@ -11,6 +11,13 @@
     z-index: 1;
 }
 
+.bookings-table-settings {
+    border: 2px solid $primary;
+    -webkit-box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.10);
+    -moz-box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.10);
+    box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.10);
+}
+
 
 
 
