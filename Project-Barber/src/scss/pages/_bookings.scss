@@ -13,9 +13,23 @@
 
 .bookings-table-settings {
     border: 2px solid $primary;
-    -webkit-box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.10);
-    -moz-box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.10);
-    box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.14);
+    -moz-box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.14);
+    box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.14);
+}
+
+.cancel-button {
+    width: 120px;
+}
+
+.cancel-button:hover {
+    border: 2px solid #000;
+}
+
+.edit-icon {
+    width: 15px;
+    gap: 5px;
+    color: #000;
 }
 
 

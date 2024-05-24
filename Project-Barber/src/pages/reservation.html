@@ -9,7 +9,7 @@
     <header></header>
     <main>
         <!-- Sesion Titulo -->
-        <section class="title-main">
+        <section class="title">
             <h1>
                 <h1>Agenda tu cita</h1>
             </h1>
@@ -17,9 +17,7 @@
 
         <!-- Sesion Subtitulo -->
         <section class="subtittle">
-            <h1>
                 <h1>nuestros barberos</h1>
-            </h1>
         </section>
 
         <!-- Sesion carrussel -->
@@ -31,6 +29,7 @@
                 <div class="details">
                   <h2>Mike</h2>
                   <p>Barbero Especializado en tijeras</p>
+                  <button type="button" class="btn btn-primary prueba">Escoger</button>
                 </div>
               </div>
               <div class="slider-img">
@@ -39,6 +38,7 @@
                 <div class="details">
                   <h2>samite</h2>
                   <p>Barbero Especializado en texturizado</p>
+                  <button type="button" class="btn btn-primary prueba">Escoger</button>
                 </div>
               </div>
               <div class="slider-img">
@@ -46,8 +46,8 @@
                 <h1 class="title-card">hashi</h1>
                 <div class="details">
                   <h2>hashi</h2>
-                  <p>Barbero Especializado en diseños con maquinadbnsdnm sd f dsfffffffffffffffffffffffffffffffffffffssss</p>
-                  <a id="1" href="#"></a>
+                  <p>Barbero Especializado en diseños</p>
+                  <button type="button" class="btn btn-primary prueba">Escoger</button>
                 </div>
               </div>
 
@@ -57,6 +57,7 @@
                 <div class="details">
                   <h2>lauren</h2>
                   <p>php Developer</p>
+                  <button type="button" class="btn btn-primary prueba">Escoger</button>
                 </div>
               </div>
 
@@ -66,6 +67,7 @@
                 <div class="details">
                   <h2>ryan</h2>
                   <p>seo Developer</p>
+                  <button type="button" class="btn btn-primary prueba">Escoger</button>
                 </div>
               </div>
             </div>
@@ -88,7 +90,7 @@
                     <span><strong>Precio:</strong></span><br>
                     <span>$40.000</span><br>
                     <br>
-                    <button type="button" class="btn btn-primary">Escoger</button>
+                    <button type="button" class="btn btn-primary col-2">Escoger</button>
                 </div>
                 <div class="container-imgs">
                     <img class="img-2" src="https://media.gq.com.mx/photos/5be9d79384b96e98fe940892/master/w_1600%2Cc_limit/grooming__7812.jpg">
@@ -118,7 +120,7 @@
                     <span><strong>Precio:</strong></span><br>
                     <span>$20.000</span><br>
                     <br>
-                    <button type="button" class="btn btn-primary">Escoger</button>
+                    <button type="button" class="btn btn-primary col-2">Escoger</button>
                 </div>
             </div>
         </article>
@@ -138,7 +140,7 @@
                     <span><strong>Precio:</strong></span><br>
                     <span>$15.000</span><br>
                     <br>
-                    <button type="button" class="btn btn-primary">Escoger</button>
+                    <button type="button" class="btn btn-primary col-2">Escoger</button>
                 </div>
                 <div class="container-imgs">
                     <img class="img-2" src="https://media.gq.com.mx/photos/5be9d79384b96e98fe940892/master/w_1600%2Cc_limit/grooming__7812.jpg">
@@ -168,11 +170,33 @@
                     <span><strong>Precio:</strong></span><br>
                     <span>$25.000</span><br>
                     <br>
-                    <button type="button" class="btn btn-primary">Escoger</button>
+                    <button type="button" class="btn btn-primary col-2">Escoger</button>
                 </div>
             </div>
         </article>
 
+        </section>
+
+        <!-- Sesion horarios -->
+        <section>
+            <div class="title">
+                <h1>Horarios</h1>
+            </div>
+
+            <div class="date-reservation col-1">
+                <label for="fecha" class="form-label">Fecha deseada</label>
+                <input type="date" id="fecha" name="fecha" class="form-control" required>  
+            </div>
+
+            <article>
+                <div class="sesion-horaria mt-5">
+                    <h1>Mañana</h1>
+                </div>
+
+                <div>
+                    <button value="10:00">10:00</button>
+                </div>
+            </article>
         </section>
 
         <!-- Sesion de datos adicionales -->
@@ -242,9 +266,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-md-1">
-                        <button type="submit" class="btn btn-primary btn-pageConctact">Agendar</button>
-                    </div>
+                    <button type="submit" class="btn btn-primary col-1">Agendar</button>
                 </div>
 
               </form>

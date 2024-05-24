@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: ubuntu;
+    src: url(./Ubuntu-Regular.ttf);
+}
+
+#main-products{
+    margin-top: 150px;
+}
+
+#products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); /* Cuatro columnas de igual ancho */
+    grid-gap: 50px;
+    justify-content: center;
+
+    
+
+     /* Espacio entre las tarjetas */
+  
+
+}
+.inputs-products {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+.inputs-products .form-control,
+.inputs-products #btn-lista-deseos {
+    margin: 5px;
+}
+
+.form-control{
+    max-width: 400px;
+
+}
+.inputs-products .form-control {
+    flex: 1;
+    min-width: 150px;
+}
+.inputs-products #btn-lista-deseos {
+    flex: 0 1 auto;
+    min-width: 120px;
+}
+
+#btn-lista-deseos{
+    max-width: 100px;
+}
+ 
+#card-products {
+    position: relative;
+    width: 20rem;
+    margin-bottom: 20px;
+    height: 450px;
+}
+
+
+#btn-add{
+    position: absolute;
+    bottom: 15px;
+    margin-top: 20px;
+}
+
+#img-product{
+   display: flex;
+   justify-content: center;
+}
+
+p a span h1{
+    font-family: ubuntu;
+    
+}
+ 
+
