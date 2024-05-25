@@ -3,7 +3,6 @@
 
 //import variables
 @import "./abstracts/_variables.scss";
-@import url(./abstracts/_variables.scss);
 
 @import "./base/normalize";
 
@@ -33,4 +32,7 @@ a p{
 @import "./pages/products.scss";
 
 //import terms and conditions
-@import "./pages/terms-and-conditions.scss"
+@import "./pages/terms-and-conditions.scss";
+
+//import home page
+@import "./pages/_home.scss";

@@ -1,0 +1,44 @@
+.video-settings {
+    // position: relative;
+    /* Para que el video sea relativo a este contenedor */
+    width: 100%;
+    /* Ancho del contenedor */
+    height: 100%;
+    /* Altura del contenedor */
+    overflow: auto;
+    /* Evita que el video se desborde */
+}
+
+.company-name {
+    color: #daa250;
+    font-family: vintage;
+    position: absolute;
+    font-size: 200px;
+    // margin-left: 500px;
+}
+
+.home-settings {
+    display: flex;
+    align-items: center;
+}
+
+// @media (width <=500px) {
+//     video {
+//         min-width: 100%;
+//         max-width: 100%;
+//     }
+//     h1 {
+//         width: 100%;
+//         max-width: 100%;
+//     }
+// }
+// @media (width >=2000px) {
+//     video {
+//         min-width: 100%;
+//         max-width: 100%;
+//     }
+//     h1 {
+//         min-width: 100%;
+//         max-width: 100%;
+//     }
+// }
