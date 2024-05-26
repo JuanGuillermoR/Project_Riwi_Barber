@@ -1,54 +1,61 @@
 {
-        "products": [
-
-        {
-            "img": "https://barbamen.co/wp-content/uploads/2023/02/Screenshot_22.png",
-            "name": "Minoxidil",
-            "price": "30.000",
-            "descripcion": "El Smartwatch XYZ 2024 es el reloj inteligente más avanzado de nuestra línea, diseñado para aquellos que buscan funcionalidad y estilo en un solo dispositivo. Este smartwatch ofrece una pantalla AMOLED de alta resolución de 1.4 pulgadas, resistente al agua hasta 50 metros, y una duración de batería de hasta 10 días con uso normal.\n\nEntre sus características destacan:\n- Monitor de Salud: Incluye un monitor de frecuencia cardíaca, seguimiento del sueño, y un sensor de oxígeno en sangre (SpO2).\n- Funciones Deportivas: Soporta más de 30 modos deportivos, desde correr y ciclismo hasta natación y yoga.\n- Conectividad y Notificaciones: Se conecta fácilmente a tu smartphone para recibir notificaciones de llamadas, mensajes y aplicaciones, y cuenta con Bluetooth 5.0 para una conexión rápida y estable.\n- Otras Funciones: Control de música, asistente de voz, GPS integrado, y pagos NFC.\n\nIdeal para aquellos que quieren llevar un estilo de vida activo y mantenerse conectados en todo momento. Con su diseño elegante y moderno, el Smartwatch XYZ 2024 se adapta a cualquier ocasión, ya sea en el gimnasio, la oficina o una salida casual.\n\n¡Aprovecha esta oferta y lleva tu salud y conectividad al siguiente nivel con el Smartwatch XYZ 2024!"
-        },
-        {  
-            "img": "https://elmeromacho.co/cdn/shop/products/Cuchilla-Barbera-T.D.J.-Stainless-Plateada-01.png?crop=center&height=840&v=1602818249&width=840", 
-            "name": "Barbera Metálica Plateada",
-            "price": "24.900",
-            "descripcion": "Los Auriculares Inalámbricos ABC ofrecen una experiencia de sonido superior con su tecnología de cancelación de ruido activa y su conectividad Bluetooth 5.0. Con hasta 24 horas de batería y un diseño ergonómico, son perfectos para largas sesiones de escucha sin interrupciones. Incluyen un estuche de carga portátil y controles táctiles para mayor comodidad."
-        },
-        {  
-            "img": "https://elmeromacho.co/cdn/shop/products/Cepillo-Barbero-Andis-Negro-01.png?crop=center&height=840&v=1602819775&width=840", 
-            "name": "Cepillo Barbero Andis",
-            "price": "10.000",
-            "descripcion": "Cepillo profesional perfecto para limpiar las cuchillas de las máquinas con dos simples gestos evitando así la acumulación de pelo en las cuchillas.Además por la textura extremadamente suave de sus cerdas es ideal para mejorar la visualización al trabajar los cortes en degradado.El cepillo barbero Andis, quita los restos de cabello. Sus cerdas sinténticas son ideales para retirar aquellos pelitos que impiden ver con claridad el sombreado del degrade (fade).."
-        },        {  
-            "img": "https://elmeromacho.co/cdn/shop/files/BarberaMetalicaDorada1.png?crop=center&height=840&v=1709419775&width=840", 
-            "name": "Barbera Metálica Dorada",
-            "price": "24.000",
-            "descripcion": "Cuchilla para afeitar con cuerpo metálico en color dorado. Ideal para acabados profesionales.Abra el seguro hacia afuera para poner la cuchilla e inserte la misma cuidadosamente haciendo uso de las guías en donde encajaca perfectamente. Cierre el riel y asegure. Limpie la barbera frecuentemente y desinfecte. Recuerde cambiar la cuchilla."
-        },
-        {  
-            "img": "https://www.capimarket.com/cdn/shop/files/shampoo-para-crecimiento-de-cabello-anti-caida-120-ml-247_1024x1024@2x.jpg?v=1698275720", 
-            "name": "Shampoo para Crecimiento de Cabello y Barba Anticaída",
-            "price": "89.999",
-            "descripcion": "Descubre nuestro shampoo Anticaída Follicle Booster, diseñado para fortalecer y estimular el crecimiento de cabello y barba. Con su fórmula enriquecida de ingredientes naturales, previene la pérdida y promueve un crecimiento saludable. Resultados permanentes a partir 4 a 8 semanas, con un rendimiento de hasta 24 semanas. Recuerda usarlo máximo 2 veces por semana para mantener los aceites naturales de tu cabello y barba. La fragancia a mandarina ofrece una experiencia refrescante. Con ingredientes de origen natural y vegano, recupera la confianza en tu cabello y barba de manera segura."
-        },
-        {  
-            "img": "https://www.capimarket.com/cdn/shop/products/1_b2dd39e4-4096-44d4-b1b1-8e76859a55e2_1024x1024@2x.jpg?v=1608753154", 
-            "name": "Tratamiento para Crecimiento de Cejas",
-            "price": "89.99",
-            "descripcion": "a fórmula de este tratamiento, pensada en la delicadeza de la piel y en el cuidado del rostro, reactiva la micro-circulación en el vello, estimulando el crecimiento del mismo, incluso en personas que toda su vida tuvieron una ceja despoblada. Al aplicar directamente en el área de las cejas, garantizas un efecto inmediato de estimulación en el crecimiento de vellos nuevos y engrosamiento de los mismos. Empezaras a notar cambios a partir de 1 mes."
-        },
-        {  
-            "img": "https://barberalia.com/wp-content/uploads/2022/04/JRL-GOLD-CLIPPER-2.jpg.webp", 
-            "name": "Balsamo de Barba",
-            "price": "40.000",
-            "descripcion": "La sinergia de componentes naturales proporciona nutrición, hidratación y protección, tanto al vello facial (barba) como para la piel, notando cambios y beneficios desde su primer uso.Puede aplicarse también sobre la piel recién afeitada para prevenir o calmar la inflamación o irritación ocasionadas por el proceso de afeitado y ayudando a tener una piel sana en esta zona."
-        },
-        {
-            "img": "https://www.capimarket.com/cdn/shop/products/peine-para-cabello-generic-3-en-1-direccion-volumen-textura-20-5-cm-329_1024x1024@2x.jpg?v=1608857363",
-            "name": "Peine para Cabello Elegance 3 en 1",
-            "price": "24.000",
-            "descripcion": "Cuchilla para afeitar en acero de alta calidad con cabo o mango en madera estampada con diseño rústico."
-        }
-     ]
+  "products": [
+    {
+      "img": "https://barbamen.co/wp-content/uploads/2023/02/Screenshot_22.png",
+      "name": "Minoxidil",
+      "price": "30.000",
+      "descripcion": "El Smartwatch XYZ 2024 es el reloj inteligente más avanzado de nuestra línea, diseñado para aquellos que buscan funcionalidad y estilo en un solo dispositivo. Este smartwatch ofrece una pantalla AMOLED de alta resolución de 1.4 pulgadas, resistente al agua hasta 50 metros, y una duración de batería de hasta 10 días con uso normal.\n\nEntre sus características destacan:\n- Monitor de Salud: Incluye un monitor de frecuencia cardíaca, seguimiento del sueño, y un sensor de oxígeno en sangre (SpO2).\n- Funciones Deportivas: Soporta más de 30 modos deportivos, desde correr y ciclismo hasta natación y yoga.\n- Conectividad y Notificaciones: Se conecta fácilmente a tu smartphone para recibir notificaciones de llamadas, mensajes y aplicaciones, y cuenta con Bluetooth 5.0 para una conexión rápida y estable.\n- Otras Funciones: Control de música, asistente de voz, GPS integrado, y pagos NFC.\n\nIdeal para aquellos que quieren llevar un estilo de vida activo y mantenerse conectados en todo momento. Con su diseño elegante y moderno, el Smartwatch XYZ 2024 se adapta a cualquier ocasión, ya sea en el gimnasio, la oficina o una salida casual.\n\n¡Aprovecha esta oferta y lleva tu salud y conectividad al siguiente nivel con el Smartwatch XYZ 2024!",
+      "id": "31d6"
+    },
+    {
+      "img": "https://elmeromacho.co/cdn/shop/products/Cuchilla-Barbera-T.D.J.-Stainless-Plateada-01.png?crop=center&height=840&v=1602818249&width=840",
+      "name": "Barbera Metálica Plateada",
+      "price": "24.900",
+      "descripcion": "Los Auriculares Inalámbricos ABC ofrecen una experiencia de sonido superior con su tecnología de cancelación de ruido activa y su conectividad Bluetooth 5.0. Con hasta 24 horas de batería y un diseño ergonómico, son perfectos para largas sesiones de escucha sin interrupciones. Incluyen un estuche de carga portátil y controles táctiles para mayor comodidad.",
+      "id": "615a"
+    },
+    {
+      "img": "https://elmeromacho.co/cdn/shop/products/Cepillo-Barbero-Andis-Negro-01.png?crop=center&height=840&v=1602819775&width=840",
+      "name": "Cepillo Barbero Andis",
+      "price": "10.000",
+      "descripcion": "Cepillo profesional perfecto para limpiar las cuchillas de las máquinas con dos simples gestos evitando así la acumulación de pelo en las cuchillas.Además por la textura extremadamente suave de sus cerdas es ideal para mejorar la visualización al trabajar los cortes en degradado.El cepillo barbero Andis, quita los restos de cabello. Sus cerdas sinténticas son ideales para retirar aquellos pelitos que impiden ver con claridad el sombreado del degrade (fade)..",
+      "id": "eb77"
+    },
+    {
+      "img": "https://elmeromacho.co/cdn/shop/files/BarberaMetalicaDorada1.png?crop=center&height=840&v=1709419775&width=840",
+      "name": "Barbera Metálica Dorada",
+      "price": "24.000",
+      "descripcion": "Cuchilla para afeitar con cuerpo metálico en color dorado. Ideal para acabados profesionales.Abra el seguro hacia afuera para poner la cuchilla e inserte la misma cuidadosamente haciendo uso de las guías en donde encajaca perfectamente. Cierre el riel y asegure. Limpie la barbera frecuentemente y desinfecte. Recuerde cambiar la cuchilla.",
+      "id": "6817"
+    },
+    {
+      "img": "https://www.capimarket.com/cdn/shop/files/shampoo-para-crecimiento-de-cabello-anti-caida-120-ml-247_1024x1024@2x.jpg?v=1698275720",
+      "name": "Shampoo para Crecimiento de Cabello y Barba Anticaída",
+      "price": "89.999",
+      "descripcion": "Descubre nuestro shampoo Anticaída Follicle Booster, diseñado para fortalecer y estimular el crecimiento de cabello y barba. Con su fórmula enriquecida de ingredientes naturales, previene la pérdida y promueve un crecimiento saludable. Resultados permanentes a partir 4 a 8 semanas, con un rendimiento de hasta 24 semanas. Recuerda usarlo máximo 2 veces por semana para mantener los aceites naturales de tu cabello y barba. La fragancia a mandarina ofrece una experiencia refrescante. Con ingredientes de origen natural y vegano, recupera la confianza en tu cabello y barba de manera segura.",
+      "id": "5e3a"
+    },
+    {
+      "img": "https://www.capimarket.com/cdn/shop/products/1_b2dd39e4-4096-44d4-b1b1-8e76859a55e2_1024x1024@2x.jpg?v=1608753154",
+      "name": "Tratamiento para Crecimiento de Cejas",
+      "price": "89.99",
+      "descripcion": "a fórmula de este tratamiento, pensada en la delicadeza de la piel y en el cuidado del rostro, reactiva la micro-circulación en el vello, estimulando el crecimiento del mismo, incluso en personas que toda su vida tuvieron una ceja despoblada. Al aplicar directamente en el área de las cejas, garantizas un efecto inmediato de estimulación en el crecimiento de vellos nuevos y engrosamiento de los mismos. Empezaras a notar cambios a partir de 1 mes.",
+      "id": "03c4"
+    },
+    {
+      "img": "https://barberalia.com/wp-content/uploads/2022/04/JRL-GOLD-CLIPPER-2.jpg.webp",
+      "name": "Balsamo de Barba",
+      "price": "40.000",
+      "descripcion": "La sinergia de componentes naturales proporciona nutrición, hidratación y protección, tanto al vello facial (barba) como para la piel, notando cambios y beneficios desde su primer uso.Puede aplicarse también sobre la piel recién afeitada para prevenir o calmar la inflamación o irritación ocasionadas por el proceso de afeitado y ayudando a tener una piel sana en esta zona.",
+      "id": "d710"
+    },
+    {
+      "img": "https://www.capimarket.com/cdn/shop/products/peine-para-cabello-generic-3-en-1-direccion-volumen-textura-20-5-cm-329_1024x1024@2x.jpg?v=1608857363",
+      "name": "Peine para Cabello Elegance 3 en 1",
+      "price": "24.000",
+      "descripcion": "Cuchilla para afeitar en acero de alta calidad con cabo o mango en madera estampada con diseño rústico.",
+      "id": "a43a"
+    }
+  ],
+  "customers": []
 }
-        
-
