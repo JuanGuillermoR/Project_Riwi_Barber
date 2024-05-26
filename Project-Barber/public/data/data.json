@@ -57,5 +57,19 @@
       "id": "a43a"
     }
   ],
-  "customers": []
+  "customers": [
+    {
+      "id": "453846",
+      "name": "juan",
+      "lastName": "ruiz",
+      "documentType": "CC",
+      "contactNumber": "3105017943",
+      "email": "juan@gmail.com",
+      "message": "lkhashg",
+      "date": "2024-05-21",
+      "time": "14:00",
+      "professional": "lauren",
+      "typeCut": "Afeitado a vapor"
+    }
+  ]
 }
