@@ -1,3 +1,11 @@
+html, body {
+    height: 100%;
+}
+
+.title{
+    margin-top: 130px;
+    text-align: center;
+}
 
 .search-input-settings {
     position: relative;
@@ -11,82 +19,27 @@
     z-index: 1;
 }
 
+#table-rounded{
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
 
+.pencil{
+    color: #daa520;
+}
 
+.pencil:hover{
+    cursor: pointer;
+}
+.wrapper {
+    min-height: 80%;
+    margin-bottom: -100px;
+}
 
+.footer {
+    height: 283px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Reset page
-// *{
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-// }
-
-// This style is a config for the search icon
-// .search-icon-settings input {
-//     width: 50%;
-//     padding-right: 100px;
-//     position: relative;
-//     z-index: -1;
-// }
-
-// .search-icon-settings input::placeholder {
-//     margin-left: 10px;
-// }
-
-// .search-icon-settings i {
-//     position: absolute;
-//     font-size: 20px;
-    
-// }
-
-// .search-button {
-//     background-color: 82 82 82 0;      
-// }
+.selected-time {
+    border: 2px solid black !important;
+}

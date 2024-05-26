@@ -13,6 +13,8 @@ import { footerComponent } from "./components/footer";
 //import products
 import { showProducts } from "./productos";
 
+//import customers
+import { showCustomers } from "./bookings";
 
 
 
@@ -21,3 +23,7 @@ footerComponent()
 
 //productos
 showProducts()
+
+//customers
+showCustomers()
+
