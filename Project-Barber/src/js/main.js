@@ -15,6 +15,7 @@ import { showProducts } from "./productos";
 
 
 
+
 navbarComponent()
 footerComponent()
 
