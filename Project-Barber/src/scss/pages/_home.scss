@@ -22,6 +22,45 @@
     align-items: center;
 }
 
+#us-title {
+    text-align: center;
+    font-family: americas;
+    font-size: 60px;
+}
+
+.home-picture-us {
+    width: 100%
+}
+
+.home-us {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.home-us p {
+    font-weight: bold;
+    font-size: large;
+    font-size: ubuntu;
+}
+
+#location-title {
+    text-align: center;
+    font-family: americas;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 // @media (width <=500px) {
 //     video {
 //         min-width: 100%;
