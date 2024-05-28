@@ -1,0 +1,52 @@
+
+
+.home-products{
+    margin-top: 120px;
+
+    /* Cuatro columnas de igual ancho */
+}
+.h1{
+    display: flex;
+    justify-content: center;
+}
+.products-home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center; /* Cuatro columnas de igual ancho */
+}
+.home-products .card{
+    border: none; 
+    justify-content: center;
+    align-items: center;
+}
+
+.article-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article-1 #card-products1{
+    display: flex;
+    justify-content: center;
+    
+}
+.article-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+// .article-2 {
+
+// }
+.article-2 div h5{
+    font-size: 10pt;
+}
+.article-2 div p{
+    font-size: 8pt;
+}
+.article-2 div a{
+    font-size: 8pt;
+}
+
+
