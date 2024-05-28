@@ -95,4 +95,3 @@ document.querySelector('form').addEventListener('submit', async function(event) 
         console.error("Error al agregar el cliente:", error);
     }
 })
-
