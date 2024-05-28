@@ -3,15 +3,11 @@
 
 //import variables
 @import "./abstracts/_variables.scss";
-@import url(./abstracts/_variables.scss);
+
 
 @import "./base/normalize";
 
 //import typography
-@import url(./base/_typography.scss);
-a p{
-    font-size: ubuntu;
-}
 
 //import nabvar
 @import "./components/navbar";

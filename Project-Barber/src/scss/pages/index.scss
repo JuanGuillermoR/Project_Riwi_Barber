@@ -1,17 +1,21 @@
-
+// main product section
 
 .home-products{
     margin-top: 120px;
 
     /* Cuatro columnas de igual ancho */
 }
+
+// central the title
 .h1{
     display: flex;
     justify-content: center;
 }
+
+
 .products-home{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     justify-content: center; /* Cuatro columnas de igual ancho */
 }
 .home-products .card{
