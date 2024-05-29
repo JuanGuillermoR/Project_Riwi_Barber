@@ -14,9 +14,9 @@ export function navbarComponent(){
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item"><a href="#" class="nav-link">Sobre nosotros</a></li>
             <li class="nav-item"><a href="#" class="nav-link ">Nuestras Reservas</a></li>
-            <li class="nav-item"><a href="../pages/products#" class="nav-link ">Productos</a></li>
-            <li class="nav-item"><a href="../pages/contact#" class="nav-link">Contactanos</a></li>
-            <li class="nav-item"><a href="../pages/reservation#" class="btn btn-primary">Agendar citas</a></li>
+            <li class="nav-item"><a href="/src/pages/products.html" class="nav-link ">Productos</a></li>
+            <li class="nav-item"><a href="/src/pages/contact.html" class="nav-link">Contactanos</a></li>
+            <li class="nav-item"><a href="/src/pages/reservation.html" class="btn btn-primary">Agendar citas</a></li>
             
           </ul>
         </div>
