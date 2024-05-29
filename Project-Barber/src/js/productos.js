@@ -120,3 +120,5 @@ async function addToWishlist(event) {
 
 // Llamar a showProducts para cargar los productos al iniciar
 showProducts();
+
+
