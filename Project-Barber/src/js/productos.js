@@ -5,38 +5,31 @@ const options = {
         'Content-Type': "application/json"
     }
 }
-    
 
-export async function showProducts() {
+export async function showProducts(products) {
     const sectionProducts = document.querySelector(".products");
+    sectionProducts.innerHTML = ''; // Clear previous content
 
-    try {
-        const response = await fetch(apiUrl, options);
-        if (!response.ok) throw new Error('Network response was not ok');
-
-        const data = await response.json();
-        data.forEach(product => {
-            const productCard = `
-                <div class="card col-md-4 card-products" id="card-products" >
-                    <figure class="figure-img">
-                        <img  src="${product.img}"  style="width: 200px; height:200px;" class="card-img-top" alt="${product.name}">
-                    </figure>
-                    <div class="card-body">
-                        <h5 class="card-title">${product.name}</h5>
-                        <p class="card-text">${product.price}</p>
-                        <a href="#">Ver detalles</a>
-                        <br>
-                        <a href="#" id="btn-add" class="btn btn-primary">Agregar</a>
-                    </div>
+    products.forEach(product => {
+        const productCard = `
+            <div class="card col-md-4 card-products" id="card-products" >
+                <figure class="figure-img">
+                    <img src="${product.img}" style="width: 200px; height:200px;" class="card-img-top" alt="${product.name}">
+                </figure>
+                <div class="card-body">
+                    <h5 class="card-title">${product.name}</h5>
+                    <p class="card-text">${product.price}</p>
+                    <a href="#">Ver detalles</a>
+                    <br>
+                    <a href="#" id="btn-add" class="btn btn-primary">Agregar</a>
                 </div>
-                
-            `;
-            sectionProducts.innerHTML += productCard;
-        });
-    } catch (error) {
-        console.error('Error fetching and parsing data', error);
-    }
+            </div>
+        `;
+        sectionProducts.innerHTML += productCard;
+    });
 }
+
+
 
 // Llama a la función para mostrar los productos
 
