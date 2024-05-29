@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../public/icons/LogoTamaño1.ico" type="image/x-icon">
+    <title>Lista de deseos</title>
+</head>
+<body>
+    <header></header>
+    <main class="container-main-wish">
+        <section class="subContainer">
+            <h1 class="text-center">Lista de deseos</h1>
+        </section>
+        <div class="d-flex justify-content-center mt-5">
+            <div class="table-wrapper col-lg-8 ">
+                <table class="table caption-top text-center">
+                    <caption>Productos</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Imagen</th>
+                            <th scope="col">Descripción</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="wishlist">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <button class="btn btn-primary" id="btn-delete-wish">Eliminar todo</button>
+        </div>
+
+        
+    </main>
+    <footer class="d-flex justify-content-between container-footer"></footer>
+    <script src="../js/wish_list.js"></script>
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>
