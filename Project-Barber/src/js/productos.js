@@ -31,7 +31,7 @@ function renderProducts(products) {
     products.forEach(product => {
         const productCard = `
             <div class="card col-md-4" id="card-products">
-                <figure id="img-product">
+                <figure class="figure-img">
                     <img src="${product.img}" style="width: 200px; height:200px;" class="card-img-top" alt="${product.name}">
                 </figure>
                 <div class="card-body">
@@ -117,3 +117,6 @@ async function addToWishlist(event) {
          console.error('Error adding product to wishlist', error);
      }
 }
+
+// Llamar a showProducts para cargar los productos al iniciar
+showProducts();
