@@ -1,3 +1,11 @@
+html, body {
+    height: 100%;
+}
+
+.title{
+    margin-top: 130px;
+    text-align: center;
+}
 
 .search-input-settings {
     position: relative;
@@ -11,103 +19,46 @@
     z-index: 1;
 }
 
-.bookings-table-settings {
-    border: 2px solid $primary;
-    -webkit-box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.14);
-    -moz-box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.14);
-    box-shadow: 16px 10px 22px 7px rgba(0,0,0,0.14);
+#table-rounded{
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.cancel-button {
-    width: 120px;
+.pencil{
+    color: #daa520;
 }
 
-.cancel-button:hover {
-    border: 2px solid #000;
+.pencil:hover{
+    cursor: pointer;
 }
 
-.edit-icon {
-    width: 15px;
-    gap: 5px;
-    color: #000;
+.wrapper {
+    min-height: 80%;
+    margin-bottom: -100px;
 }
 
+.footer {
+    height: 283px;
+}
 
+.selected-time {
+    border: 2px solid black !important;
+}
 
+.table-wrapper {
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
 
+.table-wrapper table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Reset page
-// *{
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-// }
-
-// This style is a config for the search icon
-// .search-icon-settings input {
-//     width: 50%;
-//     padding-right: 100px;
-//     position: relative;
-//     z-index: -1;
-// }
-
-// .search-icon-settings input::placeholder {
-//     margin-left: 10px;
-// }
-
-// .search-icon-settings i {
-//     position: absolute;
-//     font-size: 20px;
-    
-// }
-
-// .search-button {
-//     background-color: 82 82 82 0;      
-// }
+.table-wrapper table thead {
+    position: -webkit-sticky; /* Safari... */
+    position: sticky;
+    top: 0;
+    left: 0;
+}

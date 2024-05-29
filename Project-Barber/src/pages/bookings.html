@@ -4,63 +4,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Nuestras reservaciones</title>
 </head>
 
 <body>
     <header></header>
 
-    <main>
-        <h1 class="text-center mt-5 pt-5">Nuestras reservas</h1>
-
-        <div class="mb-5 mt-5 ms-5 col-3">
-            <i class="bi bi-search search-icon-settings"></i>
-
-            <input type="search" placeholder="Busca tú nombre" aria-describedby="basic-addon1"
-                class="form-control search-input-settings px-5">
+    <main class="wrapper">
+        
+        <h1 class="text-center pt-5 title">Nuestras reservas</h1>
+        <div class="d-flex justify-content-lg-start align-items-center gap-3">
+            <div class="mb-5 mt-5 ms-5 col-2">
+                <i class="bi bi-search search-icon-settings"></i>
+    
+                <input type="search" placeholder="Busca tú nombre" aria-describedby="basic-addon1"
+                    class="form-control search-input-settings px-5" id="name-customer" onkeydown="findCustomers()">
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary" onclick="seeCustomers(event)">Limpiar</button>
+            </div>
         </div>
 
-        <div class="table-responsive m-5 bookings-table-settings">
-            <table class="table caption-top">
-                <caption>Reservaciones</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Documento</th>
-                        <th scope="col">Fecha</th>
-                        <th scope="col">Hora Agendada</th>
-                        <th scope="col">Profesional</th>
-                        <th scope="col">Sede</th>
-                        <th scope="col"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row"></th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>
-                            <i class="bi bi-pencil edit-icon" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"></i>
-                            <button type="button" class="btn btn-primary cancel-button" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                Cancelar
-                            </button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="d-flex justify-content-center">
+            <div class="table-wrapper  col-lg-8 ">
+                <table class="table caption-top text-center">
+                    <caption>Reservaciones</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Documento</th>
+                            <th scope="col">Fecha</th>
+                            <th scope="col">Hora Agendada</th>
+                            <th scope="col">Profesional</th>
+                            <th scope="col">Sede</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="customers-table">
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+                <!-- Modal Cancelar-->
+        <div class="modal fade" id="ModalCancel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancelar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex justify-content-center ">
+                            <img src="../../public/img/pngwing.com.png" class="col-5" alt="caution">
+                        </div>
+                    <div class="mt-4 text-center">
+                        <p >
+                            Cancelar con suficiente antelación ayuda a evitar inconvenientes tanto para nuestro equipo como para otros clientes que puedan estar en lista de espera para un turno.
+                        </p>
+                        <p>
+                            Por favor, toma estos puntos en consideración antes de confirmar la cancelación de tu turno. Si estás seguro de tu decisión, procede con la cancelación.
+                            Agradecemos tu comprensión y cooperación.
+                        </p>
+                        <h3 class="mt-5">¿Estas seguro de cancelar?</h3>
+                        <div class="mt-5">
+                            <label for="FirstName" class="form-label"><Strong>Para confirmar ingresa tú número de documento</Strong></label>
+                            <div class="d-flex justify-content-center">
+                                <input type="text" name="name" class="form-control" placeholder="XXXXXX" id="confirm-document-delete" required/>
+                            </div>
+                        </div>
+                            <div class="m-4">
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" class="btn btn-primary" onclick="deleteCustomer(event)" data-bs-dismiss="modal">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Modal Actualizar -->
+        <div class="modal fade" id="ModalUpdate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Actualizar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <h1>Actulizar</h1>
+                        </div>
+                        <div class="mt-4 text-center">
+                            <form>
+                            
+                            <div class="mb-3">
+                                <label for="FirstName" class="form-label">Nuevo nombre</label>
+                                <div class="d-flex justify-content-center">
+                                    <div class="col-5"> 
+                                        <input type="text" name="name" class="form-control" id="FirstName" placeholder="Bryan" required/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div mb-3>
+                                <label for="fecha" class="form-label">Nueva fecha</label>
+                                <div class="d-flex justify-content-center">
+                                    <div class="col-5">
+                                        <input type="date" id="fecha" name="fecha" class="form-control" required>  
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <article>
+                                    <div class="sesion-horaria mt-5 text-center">
+                                        <h1>Mañana</h1>
+                                    </div>
+                    
+                                    <div class="text-center">
+                                        <button type="button" class="btn btn-light" value="10:00">10:00</button>
+                                        <button type="button" class="btn btn-light" value="11:00">11:00</button>
+                                        <button type="button" class="btn btn-light" value="12:00">12:00</button>
+                                    </div>
+                                </article>
+                    
+                                <article>
+                                    <div class="sesion-horaria mt-5 text-center">
+                                        <h1>Tarde</h1>
+                                    </div>
+                    
+                                    <div class="text-center">
+                                        <button type="button" class="btn btn-light" value="13:00">13:00</button>
+                                        <button type="button" class="btn btn-light" value="14:00">14:00</button>
+                                        <button type="button" class="btn btn-light" value="15:00">15:00</button>
+                                        <button type="button" class="btn btn-light" value="16:00">16:00</button>
+                                        <button type="button" class="btn btn-light" value="17:00">17:00</button>
+                                        <button type="button" class="btn btn-light" value="18:00">18:00</button>
+                                    </div>
+                                </article>
+                    
+                                <article>
+                                    <div class="sesion-horaria mt-5 text-center">
+                                        <h1>Noche</h1>
+                                    </div>
+                    
+                                    <div class="text-center">
+                                        <button type="button" class="btn btn-light" value="19:00">19:00</button>
+                                        <button type="button" class="btn btn-light" value="20:00">20:00</button>
+                                        <button type="button" class="btn btn-light" value="21:00">21:00</button>
+                                        <button type="button" class="btn btn-light" value="22:00">22:00</button>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="d-flex justify-content-center mt-3">
+                                <div class="col-5">
+                                    <label for="Select" class="form-label">Nuevo profesional</label>
+                                    <select id="SelectCC" class="form-select" required>
+                                        <option>Ryan</option>
+                                        <option>Mike</option>
+                                        <option>samite</option>
+                                        <option>hashi</option>
+                                        <option>lauren</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="mt-5">
+                                <label for="confirmCC" class="form-label"><Strong>Para confirmar ingresa tú número de documento</Strong></label>
+                                <div class="d-flex justify-content-center">
+                                    <input type="text" name="name" class="form-control" id="confirmCC" placeholder="XXXXXX" required/>
+                                </div>
+                            </div>
+
+                            </form> 
+
+                            <div class="m-4">
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" class="btn btn-primary" id="confirm-document-update" onclick="handleUpdate()" data-bs-dismiss="modal">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
-    <footer class="d-flex justify-content-between"></footer>
-
+    <footer class="d-flex justify-content-between footer"></footer>
+    <script src="../js/funtionsBokings.js"></script>
     <script type="module" src="../js/main.js"></script>
 </body>
 
