@@ -70,6 +70,19 @@
       "time": "14:00",
       "professional": "lauren",
       "typeCut": "Afeitado a vapor"
+    },
+    {
+      "id": "1027800932",
+      "name": "javier",
+      "lastName": "vomita",
+      "documentType": "CC",
+      "contactNumber": "1027800932",
+      "email": "zapatajoan05@gmail.com",
+      "message": "s",
+      "date": "",
+      "time": "15:00",
+      "professional": "Hashi",
+      "typeCut": ""
     }
   ]
 }

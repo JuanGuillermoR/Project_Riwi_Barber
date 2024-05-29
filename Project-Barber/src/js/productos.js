@@ -8,7 +8,7 @@ const options = {
     
 
 export async function showProducts() {
-    const sectionProducts = document.querySelector("#products");
+    const sectionProducts = document.querySelector(".products");
 
     try {
         const response = await fetch(apiUrl, options);
@@ -17,8 +17,8 @@ export async function showProducts() {
         const data = await response.json();
         data.forEach(product => {
             const productCard = `
-                <div class="card col-md-4" id="card-products" >
-                    <figure id="img-product">
+                <div class="card col-md-4 card-products" id="card-products" >
+                    <figure class="figure-img">
                         <img  src="${product.img}"  style="width: 200px; height:200px;" class="card-img-top" alt="${product.name}">
                     </figure>
                     <div class="card-body">

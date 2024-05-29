@@ -17,6 +17,7 @@ import { showProducts } from "./productos";
 import { showCustomers } from "./bookings";
 
 
+
 navbarComponent()
 footerComponent()
 

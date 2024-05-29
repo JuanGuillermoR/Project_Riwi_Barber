@@ -3,21 +3,17 @@
 
 //import variables
 @import "./abstracts/_variables.scss";
-@import url(./abstracts/_variables.scss);
+@import url(./base/_typography.scss);
+
 
 @import "./base/normalize";
 
 //import typography
-@import url(./base/_typography.scss);
-a p{
-    font-size: ubuntu;
-}
 
 //import nabvar
 @import "./components/navbar";
 
 //import Footer
-@import "./components/fotter";
 @import "./components/fotter";
 
 //import Contact
@@ -31,6 +27,9 @@ a p{
 
 //import products
 @import "./pages/products.scss";
+
+//import  home products
+@import "./pages/index.scss";
 
 //import terms and conditions
 @import "./pages/terms-and-conditions.scss"
