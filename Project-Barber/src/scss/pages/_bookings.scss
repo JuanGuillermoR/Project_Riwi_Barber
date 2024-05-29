@@ -31,6 +31,7 @@ html, body {
 .pencil:hover{
     cursor: pointer;
 }
+
 .wrapper {
     min-height: 80%;
     margin-bottom: -100px;
@@ -42,4 +43,22 @@ html, body {
 
 .selected-time {
     border: 2px solid black !important;
+}
+
+.table-wrapper {
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+
+.table-wrapper table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table-wrapper table thead {
+    position: -webkit-sticky; /* Safari... */
+    position: sticky;
+    top: 0;
+    left: 0;
 }
