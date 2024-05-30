@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+}
+
+.title{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.search-input-settings {
+    position: relative;
+    padding-left: 20px;
+}
+
+.search-icon-settings {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 6px;
+    z-index: 1;
+}
+
+#table-rounded{
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.pencil{
+    color: #daa520;
+}
+
+.pencil:hover{
+    cursor: pointer;
+}
+
+.wrapper {
+    min-height: 80%;
+    margin-bottom: -100px;
+}
+
+.footer {
+    height: 283px;
+}
+
+.selected-time {
+    border: 2px solid black !important;
+}
+
+.table-wrapper {
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+
+.table-wrapper table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table-wrapper table thead {
+    position: -webkit-sticky; /* Safari... */
+    position: sticky;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "img": "https://barbamen.co/wp-content/uploads/2023/02/Screenshot_22.png",
+      "name": "Minoxidil",
+      "price": "30.000",
+      "description": "El minoxidil o minoxidilo​ es un fármaco vasodilatador antihipertensivo utilizado habitualmente para el tratamiento de casos graves de hipertensión.​ y para la alopecia androgénica de intensidad moderada. Para el crecimiento capilar habitualmente se administra por vía tópica, en forma de solución hidroalcohólic",
+      "id": "31d6"
+    },
+    {
+      "img": "https://elmeromacho.co/cdn/shop/products/Cuchilla-Barbera-T.D.J.-Stainless-Plateada-01.png?crop=center&height=840&v=1602818249&width=840",
+      "name": "Barbera Metálica Plateada",
+      "price": "24.900",
+      "description": "Barbera profesional para afeitar en acero inoxidable color plateado, de cuchillas intercambiables.",
+      "id": "615a"
+    },
+    {
+      "img": "https://elmeromacho.co/cdn/shop/products/Cepillo-Barbero-Andis-Negro-01.png?crop=center&height=840&v=1602819775&width=840",
+      "name": "Cepillo Barbero Andis",
+      "price": "10.000",
+      "description": "Cepillo profesional perfecto para limpiar las cuchillas de las máquinas con dos simples gestos evitando así la acumulación de pelo en las cuchillas.Además por la textura extremadamente suave de sus cerdas es ideal para mejorar la visualización al trabajar los cortes en degradado.El cepillo barbero Andis, quita los restos de cabello. Sus cerdas sinténticas son ideales para retirar aquellos pelitos que impiden ver con claridad el sombreado del degrade (fade).",
+      "id": "eb77"
+    },
+    {
+      "img": "https://elmeromacho.co/cdn/shop/files/BarberaMetalicaDorada1.png?crop=center&height=840&v=1709419775&width=840",
+      "name": "Barbera Metálica Dorada",
+      "price": "24.000",
+      "description": "Cuchilla para afeitar con cuerpo metálico en color dorado. Ideal para acabados profesionales.Abra el seguro hacia afuera para poner la cuchilla e inserte la misma cuidadosamente haciendo uso de las guías en donde encajaca perfectamente. Cierre el riel y asegure. Limpie la barbera frecuentemente y desinfecte. Recuerde cambiar la cuchilla.",
+      "id": "6817"
+    },
+    {
+      "img": "https://www.capimarket.com/cdn/shop/files/shampoo-para-crecimiento-de-cabello-anti-caida-120-ml-247_1024x1024@2x.jpg?v=1698275720",
+      "name": "Shampoo para Crecimiento de Cabello y Barba Anticaída",
+      "price": "89.999",
+      "description": "Descubre nuestro shampoo Anticaída Follicle Booster, diseñado para fortalecer y estimular el crecimiento de cabello y barba. Con su fórmula enriquecida de ingredientes naturales, previene la pérdida y promueve un crecimiento saludable. Resultados permanentes a partir 4 a 8 semanas, con un rendimiento de hasta 24 semanas. Recuerda usarlo máximo 2 veces por semana para mantener los aceites naturales de tu cabello y barba. La fragancia a mandarina ofrece una experiencia refrescante. Con ingredientes de origen natural y vegano, recupera la confianza en tu cabello y barba de manera segura.",
+      "id": "5e3a"
+    },
+    {
+      "img": "https://www.capimarket.com/cdn/shop/products/1_b2dd39e4-4096-44d4-b1b1-8e76859a55e2_1024x1024@2x.jpg?v=1608753154",
+      "name": "Tratamiento para Crecimiento de Cejas",
+      "price": "89.900",
+      "description": "La fórmula de este tratamiento, pensada en la delicadeza de la piel y en el cuidado del rostro, reactiva la micro-circulación en el vello, estimulando el crecimiento del mismo, incluso en personas que toda su vida tuvieron una ceja despoblada. Al aplicar directamente en el área de las cejas, garantizas un efecto inmediato de estimulación en el crecimiento de vellos nuevos y engrosamiento de los mismos. Empezaras a notar cambios a partir de 1 mes.",
+      "id": "03c4"
+    },
+    {
+      "img": "https://elmeromacho.co/cdn/shop/products/balsamo-barba-roja-01.png?crop=center&height=840&v=1621120248&width=840",
+      "name": "Balsamo de Barba",
+      "price": "40.000",
+      "description": "La sinergia de componentes naturales proporciona nutrición, hidratación y protección, tanto al vello facial (barba) como para la piel, notando cambios y beneficios desde su primer uso.Puede aplicarse también sobre la piel recién afeitada para prevenir o calmar la inflamación o irritación ocasionadas por el proceso de afeitado y ayudando a tener una piel sana en esta zona.",
+      "id": "d710"
+    },
+    {
+      "img": "https://elmeromacho.co/cdn/shop/products/Patillera_VGR_V-228_-_Plateada.png?crop=center&height=840&v=1670879910&width=840",
+      "name": "Patillera VGR V-228",
+      "price": "95.000",
+      "description": "Máquina de afeitar tipo patillera de la marca VGR. Ideal para dar mantenimiento y un estilo propio a tu barba y patillas. También puedes realizar cortes de cabello en casa. Es un próducto portátil y recargable con cable USB, tiene una duración de 150 minutos de uso continuo. Fácil de operar, conveniente y práctico. Los finos dientes de la cuchilla permiten cortes de alta precisión. Recargable: Viene con batería incorporada, un tiempo de carga completo de 2 horas para ofrecer alrededor de 150 minutos de funcionamiento.",
+      "id": "a43a"
+    }
+  ],
+  "customers": [],
+  "wishlist": []
+}

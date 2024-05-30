@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Declaración del tipo de documento HTML y el idioma -->
+  <head>
+    <meta charset="UTF-8" /> <!-- Configuración de la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Configuración de la ventana gráfica para diseño responsivo -->
+    <title>Contactanos</title> <!-- Título de la página -->
+  </head>
+  <body>
+    <header>
+      <!-- here is the navbar -->
+    </header> 
+    <main class="container-main">
+
+      <div class="text-center">
+        <h1>Contactanos</h1> 
+      </div>
+
+      <div class="d-flex justify-content-center gap-5 mt-5">
+        
+        <div class="d-flex align-items-center">
+
+          <!-- Form to send a message -->
+          <form action="https://formsubmit.co/newstyle.barber0705@gmail.com" method="POST" id="form-contact">
+            <div class="d-flex justify-content-around gap-3">
+   
+              <!-- name field -->
+              <div class="mb-3">
+                <label for="FirstName" class="form-label">Primer nombre</label>
+                <input type="text" name="name" class="form-control" id="FirstName" placeholder="Jane" required/>
+              </div>
+              <div class="mb-3">
+                <label for="SecondName" class="form-label">Segundo nombre</label>
+                <input type="text" name="Lastname" class="form-control" id="SecondName" placeholder="Smitherton"/>
+              </div>
+            </div>
+
+             <!-- email field -->
+             <div class="mb-3">
+               <label for="email1" class="form-label">Correo Electronico</label>
+               <input type="email" name="email" class="form-control" id="email1" placeholder="email@janesfakedomain.net" required/>
+              </div>
+              
+              
+              <!-- message field -->
+            <div class="mb-3">
+              <label for="Textarea2" class="form-label">Tu mensaje</label>
+              <textarea
+                class="form-control"
+                placeholder="Ingresa tu mensaje"
+                id="Textarea2"
+                style="height: 100px"
+                name="message"
+                required
+              ></textarea>
+          
+            </div>
+            <div>
+              <!-- Send button -->
+              <button type="submit" class="btn btn-primary btn-pageConctact">Enviar</button>
+            <input type="hidden" name="_next" value="http://localhost:5173/index">
+          
+            <input type="hidden" name="_captcha" value="false">
+          
+          </form>
+        </div>
+
+        <div>
+          <img class="photo_barber_contact" src="../../public/img/delfina-pan-wJoB8D3hnzc-unsplash.jpg" alt="PhotoBarber">
+          <!-- Imagen junto al formulario, con clases de estilo -->
+        </div>
+      </div>
+    </main>
+    <footer class="d-flex justify-content-between container-footer">
+       <!-- here is the footer -->
+    </footer>
+
+    <script type="module" src="../js/alerts.js"></script>
+    <script type="module" src="../js/main.js"></script>
+
+  </body>
+</html>

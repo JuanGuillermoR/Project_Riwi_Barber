@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../public/icons/LogoTamaño1.ico" type="image/x-icon">
+    <title>Productos</title>
+</head>
+<body>
+    <header></header>
+    <main id="main-products">
+        <h1 class="text-center">Productos</h1>
+        <div class="d-flex justify-content-lg-start align-items-center gap-3">
+            <div class="mb-5 mt-5 ms-5 col-2">
+                <input class="form-control col-2" id="searchInput" type="search" placeholder="Buscar" aria-label="Search">
+            </div>
+            <div>
+                <a id="a-wish-list" class="btn btn-primary" href="./wish_list.html">Lista deseos</a>
+            </div>
+        </div>
+        <div class="container mt-5 ">
+            <section id="products" class="container mt-5 ">
+
+            </section>
+        </div>
+        
+        <!-- Modal detalle -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detalle del Producto</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body mt-4 text-center">
+                  <img id="modal-img" src="" style="width: 200px; height:200px;" class="card-img-top" alt="Imagen del Producto">
+                  <h5 id="modal-name" class="card-title mt-3"></h5>
+                  <p id="modal-description" class="card-text"></p>
+                  <p id="modal-price" class="card-text"></p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+    <footer class="d-flex justify-content-between container-footer"></footer>
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>
